@@ -143,10 +143,12 @@ input[type="telephone"]:valid {
 
 input[type="email"]:valid {
     background-position: 7px -22px;
+    border: 5px solid green;
 }
 
 input[type="telephone"]:valid {
     background-position: 7px -97px;
+    border: 5px solid green;
 }
 
 input[type="email"]:valid + .tick,
@@ -158,4 +160,5 @@ input[type="telephone"]:valid + .tick{
     height: 20px;
     float: left;
     margin: 10px;
+    background-color: green;
 }
